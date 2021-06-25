@@ -44,3 +44,18 @@ Finally, the script will produce a confusion matrix and an F1 score for the K-ne
           accuracy                           0.34       200
          macro avg       0.35      0.34      0.34       200
       weighted avg       0.35      0.34      0.34       200
+
+
+The confusion matrix for a K-nearest neighbors algorithm is simply a mathmatical representation of how accurately the K-nearest neighbors algorithm predicted each of the possible labels (or in this case, service plans). The confusion matrix records how many times the algorithm produced a true positive result, false negative result, false positive result, and true negative result. See below:
+
+![Untitled](https://user-images.githubusercontent.com/83550613/123446430-7e925380-d59e-11eb-9913-bb442b41ff1c.png)
+
+From this confusion matrix, the script will then generate a summary of the precision, recall and the F1-score. Each of these evaluation metrics for the algorithm is defined below:
+
+         Precision = True Positive/(True Positive + False Positive)
+         Recall = True Positive/(True Positive + False Negative) 
+         F1-score = 2 x ((Precision X Recall)/(Precision + Recall))
+         
+The F1-score is the harmonic average of the precision and recall of the algorithm, and illustrates how accurately the K-nearest neighbors algorithm will predict the correct label (service plan) for a new, unknown case. Note here that the algorithm calculates the "accuracy" of the model (shown graphically) and the F1-score of the model seperately, so some slight variation between the measurements is expected. This is done purposely, in order to ensure that the true accuracy of the model is not being calculated incorrectly. Traditionally, the F1-score is most often used as the "gold standard" for how accurate a given K-nearest neighbors algorithm is. 
+
+
