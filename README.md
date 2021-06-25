@@ -16,7 +16,11 @@ This GitHub repository contains a Python script that utilizes the K-nearest neig
 
 The .csv file contains a plethora of information about a fictional customer database, such as: income, marital status, geographical region, education, age, and gender. This information is then coupled with the service plan these customers select out of four different plans. The script takes this information and uses it to train itself on how to best predict the service plan a new customer might pick based on the relevant information about the customer mentioend previously. The script will test different values of K (from 1 to 20) to see how many of the K-nearest neighbors should be used to accurately predict the service plan this new customer will select. The script produces a graph plotting the accuracy of the model versus the value of K and prints the most accurate result to the console. See below:
 
+
+
    ![Figure 2021-06-25 093238](https://user-images.githubusercontent.com/83550613/123440868-df1e9200-d598-11eb-80ce-e54dc759d26a.png)
+
+
 
     runfile('C:/example', wdir='C:/example')
     The algorithm had its highest accuracy of 0.36 with a k value of 16
