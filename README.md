@@ -46,7 +46,7 @@ Finally, the script will produce a confusion matrix and an F1 score for the K-ne
       weighted avg       0.35      0.34      0.34       200
 
 
-The confusion matrix for a K-nearest neighbors algorithm is simply a mathmatical representation of how accurately the K-nearest neighbors algorithm predicted each of the possible labels (or in this case, service plans). The confusion matrix records how many times the algorithm produced a true positive result, false negative result, false positive result, and true negative result. See below:
+The confusion matrix for a K-nearest neighbors algorithm is simply a mathmatical representation of how accurately the algorithm predicted each of the possible labels (or in this case, service plans) that a given data point would identify as. The confusion matrix records how many times the algorithm produces a true positive result, false negative result, false positive result, and true negative result. See below:
 
 ![Untitled](https://user-images.githubusercontent.com/83550613/123446430-7e925380-d59e-11eb-9913-bb442b41ff1c.png)
 
