@@ -24,3 +24,23 @@ The .csv file contains a plethora of information about a fictional customer data
 
     runfile('C:/example', wdir='C:/example')
     The algorithm had its highest accuracy of 0.36 with a k value of 16
+    
+Finally, the script will produce a confusion matrix and an F1 score for the K-nearest neighbors algorithm. See below:
+
+                               [22  7]    [15   7]
+                               [8  14]    [11  11]
+      
+                               [23  8]    [21   2]
+                               [17 10]    [12  12]
+                               
+       
+                     precision    recall  f1-score   support
+
+                 1       0.31      0.43      0.36        51
+                 2       0.36      0.32      0.34        44
+                 3       0.36      0.39      0.37        54
+                 4       0.38      0.24      0.29        51
+
+          accuracy                           0.34       200
+         macro avg       0.35      0.34      0.34       200
+      weighted avg       0.35      0.34      0.34       200
